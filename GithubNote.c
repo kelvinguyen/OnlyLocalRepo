@@ -79,20 +79,14 @@
   --> git remote add origin https://github.com/kelvinguyen/GitFundermental.git  
       //
   --> git push --set-upstream //github.com/kelvinguyen/GitFundermental.git master
-<<<<<<< HEAD
       
       
-=======
-      
-      
->>>>>>> kelvinFeature1
 -------------------------------------------------------------
 //branching
 
 --> git log --graph --all --decorate --oneline //display all branch and commit
     --> git config --global alias.lga "log --graph --all --decorate" // create alias name
     --> git lga // lga will replace it with the string you set up
-<<<<<<< HEAD
 
 --> git branch kelvinFeature1 //create a kelvinFeature1 branch
 --> git checkout kelvinFeature1 // switch the branch
@@ -100,13 +94,16 @@
 --> git checkout -b feature2 // create a branch feature2 and switch to that branch
 
 --> git reflog  //where you can see all branch that you delete
-
+///////
 --> git stash // saving change on stash , not on staging
 --> git stash list // display all pending change on stash
-
-=======
->>>>>>> kelvinFeature1
-	
+--> git stash apply // will apply pending change from stash to your branch
+--> git reset --hard HEAD // reset to head to remove pending change on stash
+--> git stash pop // will apply pending change from stash to your branch and REMOVE it move stash
+--> git stash branch feature3 // move pending change from stash to a new create branch and REMOVE it from stash
+///////// Mergin branch
+--> git merge feature1 // merge master to feature1, master become feature1
+--> git branch -d feature1 // delete feature1 branch
 	
 	
 	
