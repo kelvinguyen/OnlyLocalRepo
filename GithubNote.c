@@ -79,14 +79,20 @@
   --> git remote add origin https://github.com/kelvinguyen/GitFundermental.git  
       //
   --> git push --set-upstream //github.com/kelvinguyen/GitFundermental.git master
+<<<<<<< HEAD
       
       
+=======
+      
+      
+>>>>>>> kelvinFeature1
 -------------------------------------------------------------
 //branching
 
 --> git log --graph --all --decorate --oneline //display all branch and commit
     --> git config --global alias.lga "log --graph --all --decorate" // create alias name
     --> git lga // lga will replace it with the string you set up
+<<<<<<< HEAD
 
 --> git branch kelvinFeature1 //create a kelvinFeature1 branch
 --> git checkout kelvinFeature1 // switch the branch
@@ -98,6 +104,8 @@
 --> git stash // saving change on stash , not on staging
 --> git stash list // display all pending change on stash
 
+=======
+>>>>>>> kelvinFeature1
 	
 	
 	
