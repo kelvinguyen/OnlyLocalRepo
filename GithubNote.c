@@ -30,7 +30,6 @@
 --> account and organization
 	- account : individual user
 	- organization : a group of account
-<<<<<<< HEAD
 	--> convert your account to organization or create organization in account setting
 
 // git command and config
@@ -60,8 +59,49 @@
   --> git checkout testfile.c // revert what you did to previous version
       //
   --> rm file.txt // remove a file
+      //
+  --> git reset --hard // reset everthing back to the head version
+  --> git reset --soft Head~2 // reset everything back to 2 version before head
+      //
+  --> touch text1.txt text2.txt // create text file
+      //
+  --> git clean -f // delete all file that haven't git add to staging
+      //
+  --> vim file.txt // for editing your file
+                   // i : inserting mode 
+                   // ESC : exiting insert mode
+                   // :wp : exit vim back to cmd
+      //
+  --> git clone https://github.com/jquery/jquery.git // clone it to my local repository
+      //
+  --> git branch // check all branch
+      // add existing remote repo in github
+  --> git remote add origin https://github.com/kelvinguyen/GitFundermental.git  
+      //
+  --> git push --set-upstream //github.com/kelvinguyen/GitFundermental.git master
       
+      
+-------------------------------------------------------------
+//branching
+
+--> git log --graph --all --decorate --oneline //display all branch and commit
+    --> git config --global alias.lga "log --graph --all --decorate" // create alias name
+    --> git lga // lga will replace it with the string you set up
 	
-=======
-	--> convert your account to organization or create organization in account setting
->>>>>>> 0afcb91c9478d6e502cbdee74eb21384ea1972dd
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
