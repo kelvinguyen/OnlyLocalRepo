@@ -30,6 +30,7 @@
 --> account and organization
 	- account : individual user
 	- organization : a group of account
+<<<<<<< HEAD
 	--> convert your account to organization or create organization in account setting
 
 // git command and config
@@ -61,3 +62,6 @@
   --> rm file.txt // remove a file
       
 	
+=======
+	--> convert your account to organization or create organization in account setting
+>>>>>>> 0afcb91c9478d6e502cbdee74eb21384ea1972dd
