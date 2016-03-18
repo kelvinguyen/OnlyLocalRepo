@@ -52,7 +52,12 @@
   --> git config --global help.autocorrect 1 // set autocorrect for your user at 1 second
   --> git config --global color.ui auto // set multi color to auto
   --> git config --global core.autocrlf true|false|input // set carraige return line feed
-  
-  
+      //
+  --> git diff abcdef..syezkl // using SHA to check the different between 2 version
+  --> git diff HEAD~1..HEAD // HEAD is latest version, HEAD~1 : a version before lastest one
+      //
+  --> git checkout testfile.c // revert what you did to previous version
+      //
+  --> rm file.txt // remove a file
       
 	
