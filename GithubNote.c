@@ -36,4 +36,23 @@
 	--> mkdir GitFoler // create a folder
 	--> git --version // check the version
 	--> git init // create a local repository
+      // system level
 	--> git config --system // stored in c:\Program Files(x86)\Git\etc\gitconfig
+      // user level
+  --> git config --global // stored in c:\Users\Kelvin Nguyen\.gitconfig
+      // repository configuration
+  --> git config // stored in .git/config in each repo
+      // check your configuration
+  --> cat ~/.gitconfig ///list all the configuration that you have
+      //
+  --> git config user.name "kelvin nguyen" //set up name for your repo
+  --> git config user.email "kelvinguyen@hotmail.com" // set up email for your repo
+      //
+  --> git config --global core.editor notepad2 // set up editor for user level
+  --> git config --global help.autocorrect 1 // set autocorrect for your user at 1 second
+  --> git config --global color.ui auto // set multi color to auto
+  --> git config --global core.autocrlf true|false|input // set carraige return line feed
+  
+  
+      
+	
