@@ -1,0 +1,4 @@
+logFolder 
+/logFolder/*.txt
+/logFolder/*.log
+/logFolder
